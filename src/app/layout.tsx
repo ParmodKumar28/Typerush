@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
+import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "TypeRush — Typing Speed Test",
-  description: "Test your typing speed with TypeRush",
+  description: "Test and improve your typing speed with TypeRush",
 };
 
 export default function RootLayout({
@@ -14,13 +16,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className="flex flex-col min-h-screen">
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
           enableSystem={false}
         >
-          {children}
+          <Navbar />
+          <main className="flex-1">
+            {children}
+          </main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
