@@ -1,0 +1,44 @@
+export const easyWords = [
+    "the", "be", "to", "of", "and", "a", "in", "that", "have", "it",
+    "for", "not", "on", "with", "he", "as", "you", "do", "at", "this",
+    "but", "his", "by", "from", "they", "we", "say", "her", "she", "or",
+    "an", "will", "my", "one", "all", "would", "there", "their", "what",
+    "so", "up", "out", "if", "about", "who", "get", "which", "go", "me",
+    "when", "make", "can", "like", "time", "no", "just", "him", "know",
+    "take", "people", "into", "year", "your", "good", "some", "could",
+    "them", "see", "other", "than", "then", "now", "look", "only", "come",
+    "its", "over", "think", "also", "back", "after", "use", "two", "how",
+    "our", "work", "first", "well", "way", "even", "new", "want", "any"
+];
+
+export const mediumWords = [
+    "about", "above", "across", "action", "active", "actual", "advice",
+    "affect", "afford", "afraid", "agency", "agenda", "almost", "always",
+    "amount", "animal", "answer", "anyone", "around", "arrive", "aspect",
+    "attack", "attend", "author", "avenue", "battle", "beauty", "become",
+    "before", "behind", "better", "beyond", "border", "bottom", "branch",
+    "bright", "broken", "budget", "button", "camera", "career", "castle",
+    "center", "change", "charge", "choice", "choose", "circle", "client",
+    "coffee", "column", "commit", "common", "company", "corner", "county",
+    "couple", "course", "create", "credit", "crisis", "custom", "danger",
+    "debate", "decide", "demand", "design", "detail", "direct", "divide",
+    "doctor", "dollar", "double", "driver", "during", "effect", "effort",
+    "enable", "energy", "engage", "engine", "enough", "ensure", "entire",
+    "escape", "events", "expect", "export", "extend", "factor", "family"
+];
+
+export const hardWords = [
+    "abbreviate", "accomplish", "accumulate", "acknowledge", "acquisition",
+    "adjustment", "administration", "advertisement", "agriculture", "algorithms",
+    "ambiguous", "amplification", "anticipate", "approximately", "architecture",
+    "arrangement", "assessment", "association", "authenticate", "authorization",
+    "automatically", "background", "biodiversity", "breakthrough", "bureaucracy",
+    "calculation", "capabilities", "circumstances", "collaboration", "comfortable",
+    "communication", "competition", "comprehensive", "concentration", "configuration",
+    "consequences", "considerable", "construction", "contemporary", "contradiction",
+    "controversial", "conversation", "corresponding", "cryptocurrency", "cylindrical",
+    "demonstration", "dependencies", "development", "differentiate", "distribution",
+    "documentation", "effectiveness", "electromagnetic", "encyclopedia", "enforcement",
+    "entertainment", "environmental", "establishment", "examination", "experiencing",
+    "extraordinary", "functionality", "generalization", "globalization", "government"
+];
